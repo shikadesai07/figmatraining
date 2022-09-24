@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Task 1 </h1>
+        <h2>Navbar</h2>
+        <div class="mains">
+          
+     <div class="main">
+        <div class="main1">1</div>
+        <div class="main1">2</div>
+        <div class="main1">3</div>
+     </div>
+     <div class="main">
+        <div class="main1">4</div>
+        <div class="main1">5</div>
+        <div class="main1">6</div>
+     </div>
+     <div class="main">
+        <div class="main1">7</div>
+        <div class="main1">8</div>
+        <div class="main1">9</div>
+     </div>
+    </div>
+
+    <section id="navbar">
+        <h1>Task 2 </h1>
+        <h2>Navbar</h2>
+        <div class="nav">
+            <div class="nav1">Home</div>
+            <div class="nav1">About</div>
+            <div class="nav1">Services</div>
+            <div class="nav1">Contact</div>
+        </div>
+
+    </section>
+    <section class="layout3">
+        <h1>Task 3 </h1>
+        <h2>Sidebar</h2>
+        <div class="task3">
+            <div class="t3"></div>
+            <div class="t4"></div>
+            </div>
+    </section>
+
+    <section class="layout4">
+        <h1>Task 4 </h1>
+        <h2>Card Layout 2</h2>
+        <div class="l4main">
+        <div class="l4">
+            <div class="l41"></div>
+        </div>
+        <div class="l445">
+            <div class="l42"></div>
+            <div class="l43"></div>
+        </div>
+        <div class="l444">
+            <div class="l44"></div>
+            <div class="l45"></div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="layout5">
+        <h1>Task 5</h1>
+        <h2>Holy Grail</h2>
+        <div class="l5main">
+        <div class="l5">
+            <div class="l51">A</div>
+        </div>
+        <div class="l555">
+            <div class="l52">B</div>
+            <div class="l53">C</div>
+            <div class="l54">D</div>
+        </div>
+        <div class="l556">
+            <div class="l55">E</div>
+           
+        </div>
+    </div>
+    </section>
+
+    <section class="rnav">
+        <h1>Task 6</h1>
+        <h2>Responsive Navbar</h2>
+        <nav>
+        <div class="nav2"> ShikaD </div>
+            <div class="nav-items">
+                <ul class="nav-list" id="navi-list">
+                   
+                    <li class="navbar">
+                        <a href="#">About</a>
+                    </li>
+                 
+                    <li class="navbar">
+                        <a href="#">Contact</a>
+                    </li>
+              
+                    <li class="navbar">
+                        <a href="#">Services</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="menu" id="toggle-Button">
+                <div class="menu-list">
+
+                </div>
+                <div class="menu-list">
+                    
+                </div>
+                <div class="menu-list">
+                    
+                </div>
+            </div>
+       
+    </nav>
+    </section>
+
+    </body>
+    <script >
+        const toggleButton= document.getElementById('toggle-Button')
+        const naviList= document.getElementById('navi-list')
+        toggleButton.addEventListener('click',() =>{
+            naviList.classList.toggle('active');
+
+        })
+    </script>
+
+</html>
